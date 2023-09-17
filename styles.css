@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: lightblue;
+    font-family: "timeB";
+    font-size: 3vw;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.text {
+    margin:0;
+}
+
+.upL {
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.container {
+    top:50%;
+    left:50%;
+    transform: translateY(50%);
+
+}
+
+.upLo {
+    display: block;
+    text-align: center;
+}
+
+svg {
+    width: 6vw;
+    height: 6vw;
+    margin: -2vh
+}
+
+
+@font-face {
+    font-family: "timeB";
+    src: url(assets/font/TimeburnerBold-peGR.ttf);
+}
